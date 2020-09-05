@@ -1,0 +1,45 @@
+main {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.el-upload-dragger {
+    width: 100%;
+    height: 100%;
+}
+
+.el-select {
+    width: 100%;
+}
+
+#code {
+    position: relative;
+    width: 100%;
+    height: 496px;
+    border: solid 1px #dcdfe6;
+}
+
+.btn-render {
+    float: right;
+}
+
+.canvas-wrapper {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #dcdfe6;
+}
+
+.canvas-error {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 20px;
+    color: #f00;
+    background: rgba(255, 255, 255, 0.8);
+}
